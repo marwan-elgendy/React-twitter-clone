@@ -161,3 +161,9 @@ li {
   font-size: 20px;
   color: #C3392A;
 }
+
+.loading{
+  background-color: #1DA1F2;
+  height: 3px;
+  position: absolute;
+}

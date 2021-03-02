@@ -23,7 +23,7 @@ class Dashboard extends Component{
 function mapStateToProps({tweets}){
     return { 
         tweetsIds: Object.keys(tweets)
-        .sort((a,b) => tweets[b].timestamp - tweets[a].timestamp)
+        .sort((a,b) => tweets[b].timestamp-tweets[a].timestamp)
     }
 }
 

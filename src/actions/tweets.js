@@ -13,14 +13,14 @@ function addTweet(tweet){
 }
 
 
-export function receiveTweets(tweet){
+export function receiveTweets(tweets){
     return{
         type: RECEIVE_TWEETS,
-        tweet
+        tweets
     }
 }
 
-export function handleAddtweet (text, replyingTo){
+export function handleAddTweet (text, replyingTo){
     return(dispatch, getState) => {
         const {authedUser} = getState()
         dispatch(showLoading())
